@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(225, 231, 240);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.style {
+  padding-top: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 300px;
+
+  display: flex;
+
+  .style-left {
+    width: 50%;
+
+    h1 {
+      font-size: 40px;
+      color: rgb(247, 106, 106);
+    }
+  }
+  .style-right {
+    width: 50%;
+
+    p {
+      line-height: 1.7;
+    }
+
+    span {
+      font-weight: 750;
+    }
+  }
+}
+
+.our-players {
+  text-align: center;
+  align-items: center;
+
+  .players {
+    display: flex;
+    max-width: 1000px;
+
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .player {
+    text-align: center;
+
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    border-bottom: 2px solid rgb(224, 12, 12);
+  }
+}
+
+.images1 {
+  padding-top: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 300px;
+
+  display: flex;
+
+  .image-left {
+    width: 50%;
+
+    .imge {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }
+  .image-right {
+    width: 50%;
+
+    p {
+      line-height: 1.7;
+    }
+
+    span {
+      font-weight: 750;
+    }
+  }
+}
+
+.images2 {
+  padding-top: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 300px;
+
+  display: flex;
+
+  .image-left {
+    width: 50%;
+
+    .imge {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }
+  .image-right {
+    width: 50%;
+
+    p {
+      line-height: 1.7;
+    }
+
+    span {
+      font-weight: 750;
+    }
+  }
+}
+
+.images3 {
+  padding-top: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 300px;
+
+  display: flex;
+
+  .image-left {
+    width: 50%;
+
+    .imge {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }
+  .image-right {
+    width: 50%;
+
+    p {
+      line-height: 1.7;
+    }
+
+    span {
+      font-weight: 750;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.pes {
+  width: 100%;
+  background-color: azure;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.EFOTTBOLL {
+  height: 380px;
+  width: 400px;
+  border-radius: 30%;
+  object-fit: cover;
+}
+
+.kora {
+  padding: 10px;
+  background-color: rgb(233, 0, 97);
+  font-size: 15px;
+  font-style: oblique;
+  font-variant: small-caps;
+  border: none;
+  border-radius: 5px;
+}
+
+.our-services {
+  text-align: center;
+  align-items: center;
+  padding: 35px 20px;
+}
+.my-text {
+  color: #f3325c;
+  font-size: 40px;
+}
+
+.this-services {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10%;
+  padding: 5px;
+
+  text-align: center;
+  gap: 30px;
+}
+
+.service-box {
+  width: 150px;
+  height: 170px;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.3);
+  background: #81e8fa;
+  padding: 14px;
+  border-radius: 15%;
+  text-align: center;
+
+  box-shadow: 0 15px 25px rgba(3, 3, 3, 0.12);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background: #ff624f;
+  color: white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.service-box {
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-block-end: 5px;
+}
+
+.but {
+  height: 60px;
+  width: 200px;
+  border-radius: 5%;
+  object-fit: cover;
+  padding: 10px;
+  background-color: rgb(6, 150, 194);
+
+  font-size: 20px;
+  font-style: oblique;
+  font-variant: small-caps;
+  border: none;
+  border-radius: 5px;
+}
+header {
+  width: 100%;
+  background-color: rgb(228, 18, 182);
+  height: 150px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Restart {
+  width: 150px;
+  height: 50px;
+}
+ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  font-size: 22px;
+}
+li a {
+  text-decoration: none;
+}
+.my-div {
+  height: 800px;
+  width: 1000px;
+   border-radius: 5%;
+  padding: 5px;
+
+  background-color: rgb(230, 187, 187);
+  margin: 50px;
+  margin-left: 180px;
+}
+
+.y-div {
+  height: 280px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  text-align: start;
+}
+
+.header {
+  color: rgb(229, 233, 11);
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.l10 {
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+.elit {
+  height: 250px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.rank {
+  height: 220px;
+  width: 280px;
+  background-color: lightcyan;
+  margin-bottom: 40px;
+  border-radius: 18%;
+  padding: 5px;
+
+}
+
+.rank1 {
+  height: 220px;
+  width: 280px;
+  background-color: rgb(234, 242, 247);
+  margin-bottom: 40px;
+  border-radius: 18%;
+  padding: 5px;
+
+}
+
+.rank2 {
+  height: 220px;
+  width: 280px;
+  background-color: lightcyan;
+  margin-bottom: 40px;
+  border-radius: 18%;
+  padding: 5px;
+
+}
+
+.rank3 {
+  height: 220px;
+  width: 280px;
+  background-color: rgb(234, 242, 247);
+  margin-bottom: 40px;
+  border-radius: 18%;
+  padding: 5px;
+
+}
+
+.image {
+  width: 1000px;
+  height: 300px;
+  text-align: center;
+
+  background-image: url("https://thumbs.dreamstime.com/b/business-meeting-silhouette-sunset-37284204.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+.click {
+   height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(95, 218, 235);
+  color: black;
+  font-size: 20px;
+
+  margin-right: 15px;
+}
