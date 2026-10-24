@@ -3,10 +3,38 @@
   padding: 0;
 }
 
+header {
+  width: 100%;
+  background-color: rgb(228, 18, 182);
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Restart {
+  width: 150px;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  font-size: 22px;
+}
+
+li a {
+  text-decoration: none;
+}
+
 body {
   background-color: rgb(225, 231, 240);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .style {
   padding-top: 40px;
   max-width: 1000px;
@@ -18,11 +46,14 @@ body {
   .style-left {
     width: 50%;
 
-    h1 {
-      font-size: 40px;
-      color: rgb(247, 106, 106);
+    h2 {
+
+      font-size: 25px;
+      color: #006A4E;
+      line-height: 1.5;
     }
   }
+
   .style-right {
     width: 50%;
 
@@ -37,7 +68,7 @@ body {
 }
 
 .our-players {
-  text-align: center;
+  text-align: left;
   align-items: center;
 
   .players {
@@ -56,9 +87,17 @@ body {
       height: 250px;
       object-fit: cover;
       border-radius: 20px;
+
     }
+
     border-bottom: 2px solid rgb(224, 12, 12);
   }
+
+
+
+
+
+
 }
 
 .images1 {
@@ -66,7 +105,6 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   height: 300px;
-
   display: flex;
 
   .image-left {
@@ -79,6 +117,7 @@ body {
       border-radius: 20px;
     }
   }
+
   .image-right {
     width: 50%;
 
@@ -110,6 +149,7 @@ body {
       border-radius: 20px;
     }
   }
+
   .image-right {
     width: 50%;
 
@@ -141,6 +181,7 @@ body {
       border-radius: 20px;
     }
   }
+
   .image-right {
     width: 50%;
 
@@ -152,21 +193,6 @@ body {
       font-weight: 750;
     }
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-* {
-  padding: 0;
-  margin: 0;
 }
 
 .pes {
@@ -189,7 +215,7 @@ body {
 .kora {
   padding: 10px;
   background-color: rgb(233, 0, 97);
-  font-size: 15px;
+  font-size: 20px;
   font-style: oblique;
   font-variant: small-caps;
   border: none;
@@ -201,6 +227,7 @@ body {
   align-items: center;
   padding: 35px 20px;
 }
+
 .my-text {
   color: #f3325c;
   font-size: 40px;
@@ -218,8 +245,8 @@ body {
 }
 
 .service-box {
-  width: 150px;
-  height: 170px;
+  width: 160px;
+  height: 180px;
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.3);
   background: #81e8fa;
   padding: 14px;
@@ -253,9 +280,9 @@ body {
 }
 
 .but {
-  height: 60px;
+  height: 50px;
   width: 200px;
-  border-radius: 5%;
+
   object-fit: cover;
   padding: 10px;
   background-color: rgb(6, 150, 194);
@@ -264,136 +291,159 @@ body {
   font-style: oblique;
   font-variant: small-caps;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
 }
-header {
-  width: 100%;
-  background-color: rgb(228, 18, 182);
-  height: 150px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.Restart {
-  width: 150px;
-  height: 50px;
-}
-ul {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  font-size: 22px;
-}
-li a {
-  text-decoration: none;
-}
 .my-div {
-  height: 800px;
-  width: 1000px;
-   border-radius: 5%;
-  padding: 5px;
 
-  background-color: rgb(230, 187, 187);
-  margin: 50px;
-  margin-left: 180px;
+
+  height: auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 35px;
+  padding: 0;
+  background-color: #F8FAFC;
+  margin: 50px auto 20px auto;
+  padding-bottom: 0;
+  overflow: hidden;
 }
 
 .y-div {
   height: 280px;
-  width: 1000px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  text-align: start;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px 0 40px;
+  box-sizing: border-box;
 }
 
-.header {
-  color: rgb(229, 233, 11);
-  margin-top: 20px;
-  margin-left: 15px;
+.header1 {
+  color: #2563EB;
+  width: 45%;
+  margin: 0;
+  margin-top: 5px;
+  line-height: 1.3;
 }
 
 .l10 {
   font-size: 18px;
-  margin-top: 70px;
+  width: 45%;
+  margin: 0;
+  margin-top: 5px;
+  color: #6C757D;
+  line-height: 1.8;
 }
 
 .elit {
-  height: 250px;
-  width: 1000px;
+  height: auto;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   gap: 10px;
-  align-items: center;
+  padding-bottom: 30px;
   border-bottom: 2px solid black;
 }
 
 .rank {
   height: 220px;
-  width: 280px;
-  background-color: lightcyan;
-  margin-bottom: 40px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 18%;
-  padding: 5px;
-
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
 .rank1 {
   height: 220px;
-  width: 280px;
-  background-color: rgb(234, 242, 247);
-  margin-bottom: 40px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 18%;
-  padding: 5px;
-
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
 .rank2 {
   height: 220px;
-  width: 280px;
-  background-color: lightcyan;
-  margin-bottom: 40px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 18%;
-  padding: 5px;
-
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
 .rank3 {
   height: 220px;
-  width: 280px;
-  background-color: rgb(234, 242, 247);
-  margin-bottom: 40px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 18%;
-  padding: 5px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
 
+
+.rank,
+.rank2 {
+  background-color: lightcyan;
+}
+
+.rank1 {
+  background-color: rgb(208, 216, 226);
+}
+
+.rank3 {
+  background-color: rgb(234, 242, 247);
 }
 
 .image {
-  width: 1000px;
+  width: 100%;
   height: 300px;
-  text-align: center;
-
-  background-image: url("https://thumbs.dreamstime.com/b/business-meeting-silhouette-sunset-37284204.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 25px;
+  border-radius: 35px 35px 35px 35px;
+  background-image: url("https://images.unsplash.com/photo-1523726491678-bf852e717f6a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
   background-size: cover;
   background-position: center;
+  box-sizing: border-box;
 }
 
-
-
-
-
 .click {
-   height: 50px;
-  width: 150px;
+  height: 38px;
+  width: 110px;
   border: none;
-  border-radius: 10px;
-  background-color: rgb(95, 218, 235);
-  color: black;
-  font-size: 20px;
+  border-radius: 8px;
+  background-color: #8b1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 
-  margin-right: 15px;
+  a {
+    font-size: 10px;
+    color: #f8f5f5;
+    text-decoration: none;
+  }
 }
