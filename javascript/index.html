@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Homework</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="box">
-        <h2 class="title">JavaScript Assignment Done</h2>
-        <p class="description">
-            Successfully completed all 4 homework problems: Personal Info, Subject Marks & Average, Product Bill Function, and Discount Receipt Generator.
-        </p>
-        <p class="status">Check the browser console for outputs!</p>
+
+    <h3>Task 1: Box Size Controller</h3>
+    <div id="box"></div>
+    <br>
+    <button class="bttn" onclick="changeSize(100, 100)(0.1)">Small</button>
+    <button onclick="changeSize(300, 300)(0.1)">Large</button>
+
+    
+
+
+    <h3>Task 2: Show and Hide Product Details</h3>
+    <div class="card">
+        <h4>Wireless Headphone</h4>
+        <button onclick="toggleDetails()">Show Details</button>
+        <div id="details" class="hide">
+            <p>This headphone has great sound quality and <b>100</b> hours battery backup.</p>
+        </div>
+    </div>
+
+    
+
+    <h3>Task 3: E-commerce Product Controller</h3>
+    <div id="productCard" class="card">
+        <h4>Gaming Mouse</h4>
+        <p>Price: $25</p>
+        <p>Stock: 5</p>
+        <p id="stockResult"></p>
+        <button onclick="highlightCard(0.1)">Highlight Product</button>
+        <button onclick="checkStock(0.1)">Check Stock</button>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
