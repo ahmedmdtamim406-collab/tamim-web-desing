@@ -17,14 +17,10 @@
 
     <header class="navbar">
         <div class="main nav-main">
-
-
             <a href="#">
                 <img class="logo" src="https://tentcomm.com/wp-content/uploads/2024/09/TENTWEBLOGO-1300x650.png"
                     alt="Logo">
             </a>
-
-
 
             <nav class="nav-links" id="navLinks">
                 <a href="#">Home</a>
@@ -34,16 +30,14 @@
                 <a href="#">Portfolio</a>
             </nav>
 
-
-            <button class="menu-icon" id="menuicon" onclick="navLinks.classList.toggle('active')">
+            <button class="menu-icon" id="menuIcon" aria-label="Toggle Menu">
                 <span></span>
                 <span></span>
                 <span></span>
-
-
             </button>
         </div>
     </header>
+
 
     <main class="main">
 
@@ -65,15 +59,6 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
-
-
         <section class="box">
             <div class="this-box blue-box">
                 <h2>60+</h2>
@@ -93,15 +78,6 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
-
-
         <section class="middile-a2z">
             <div class="middile-content">
                 <h2>Want to chat?</h2>
@@ -110,20 +86,10 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
-
-
         <section class="team">
             <h3 class="title">LED BY THE BEST</h3>
 
             <div class="team-all">
-
                 <div class="team-card">
                     <div class="img-all">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4QT7xPSvZfqxpJPKiBt75zCvzPB_7a67nIfeOQJCJ7GKLlqFFjEKGO_Eq&s=10"
@@ -146,7 +112,6 @@
                     </div>
                 </div>
 
-
                 <div class="team-card">
                     <div class="img-all">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBjesyF-uA2nVzbgi-I1iVBparyGLtjko-DtWOmbWTLhk54GAZSfIgDY-O&s=10"
@@ -157,7 +122,6 @@
                         <p>Creative Lead</p>
                     </div>
                 </div>
-
 
                 <div class="team-card">
                     <div class="img-all">
@@ -170,21 +134,30 @@
                     </div>
                 </div>
             </div>
-             <div class="foot-bar">
-        <span>© 2026 Tent Communications. All rights reserved.</span>
-    </div>
         </section>
-       
+
     </main>
 
+
+    <footer class="footer">
+        <div class="main">
+            <div class="foot-bar">
+                <span>© 2026 Tent Communications. All rights reserved.</span>
+                <a href="#" class="privacy-link">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+
     <script>
-        const menuToggle = document.getElementById('menuToggle');
+        const menuIcon = document.getElementById('menuIcon');
         const navLinks = document.getElementById('navLinks');
-        menuToggle.addEventListener('click', () => {
+
+        menuIcon.addEventListener('click', () => {
+            menuIcon.classList.toggle('active');
             navLinks.classList.toggle('active');
         });
     </script>
-    
 
 </body>
 
